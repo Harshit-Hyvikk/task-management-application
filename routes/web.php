@@ -37,6 +37,3 @@ Route::middleware(['auth'])->group(function () {
 
     Route::get('logout', [UserController::class, 'logout'])->name('logout');
 });
-
-
-
